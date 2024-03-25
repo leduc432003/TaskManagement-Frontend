@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #4158d0;
+  background-color: #ff3cac;
+  background-image: linear-gradient(
+    225deg,
+    #ff3cac 0%,
+    #784ba0 50%,
+    #2b86c5 100%
+  ) !important;
+
+  color: white !important;
+  overflow-x: hidden !important;
+  width: 100vw !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.card {
+  background-color: rgba(36, 110, 255, 0.8);
+  box-shadow: rgba(215, 106, 255, 0.507) 0px 0px 20px;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.techStack {
+  color: blue;
+  border: 2px solid blue;
+  padding: 0.5rem 2 rem;
+}
+
+.customeButton {
+  background-image: linear-gradient(
+    90deg,
+    rgba(5, 0, 36, 1) 0%,
+    rgba(9, 71, 121, 1) 81%,
+    rgba(0, 212, 255, 0.4206932773109243) 100%
+  );
+  color: white !important;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
